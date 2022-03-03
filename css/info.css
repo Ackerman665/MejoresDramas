@@ -1,0 +1,35 @@
+#info{
+    background: #333;
+    color: #FF0080;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-d{
+    margin: 20px;
+}
+
+.info-d img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #F77FBE;
+}
+
+@media (min-width: 480px){
+    .info-d{
+        width: 40%;
+    }
+}
+@media (min-width: 1024px){
+    .info-d{
+        width: auto;
+    }
+}
